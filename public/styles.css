@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+    height:100%;
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+  }
+
+  #AppContainer {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh
+  }
+  
+  header {
+    background-color: #f5ba13;
+    margin: 0 -20px;
+    padding: 1% 3%;
+    height: 4.5rem;
+  }
+
+  header h2 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 100;
+  }
+  header p {
+    display: inline
+  }
+
+  #content{
+    flex: 1;
+    background-color: white;
+    margin: 0 -20px;
+    padding: 1% 3%;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .childDiv{
+    border: 2px red;
+    height: 50%;
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  #RupeshFace{
+    object-fit: contain;
+    max-width: 30%;
+    max-height: 30%;
+    flex:1;
+    vertical-align: bottom;
+    align-self: center;
+  }
+
+  #introPara{
+    font-size: medium;
+  }
+
+  footer {
+    text-align: center;
+    height: 4.5rem;
+    border: 3px solid red;
+    background-color: #f5ba13;
+    margin: 0 -20px;
+    padding: 1% 3%;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+
+  footer div.footer-column{
+    float: left;
+    width: 25%;
+    display:flex;
+    flex-direction: column;
+  }
+
+
+
+
+
+  
